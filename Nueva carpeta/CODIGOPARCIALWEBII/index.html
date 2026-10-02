@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-superior center">CADENA RADIAL CBN</nav>
+        <section class="section-nav">
+            <nav class="nav nav-left">
+                <li class="center">Mi lista</li>
+                <li class="center">Radios principales</li>
+                <li class="center">Recomendadas</li>
+                <li class="center li-selected">Radios por regiones</li>
+                <li class="center">Noticia</li>
+            </nav>
+            <nav class="nav nav-right">
+                <li class="center">Radios por generos</li>
+            </nav>
+        </section>
+
+        <div class="panel">
+            <article class="item-panel item-panel-left">
+
+                <div class="card">
+                    <img class="img-card" src="img/olimpica-stereo.png" alt="">
+                    <h5>Olimpica</h5>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="img/la-consentida-medellin.png" alt="">
+                    <h5>La consentida</h5>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="img/la-estacion-vallenata.png" alt="">
+                    <h5>Estación vallenata</h5>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="img/candela-stereo.png" alt="">
+                    <h5>Candela stereo</h5>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="img/la-mega-bogota.png" alt="">
+                    <h5>La Mega</h5>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="img/la-reina.png" alt="">
+                    <h5>La Reina 95.5</h5>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="img/latina-estereo.jpg" alt="">
+                    <h5>Latina Stereo</h5>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="img/oxigeno-fm-colombia.png" alt="">
+                    <h5>Oxigeno FM</h5>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="img/radio-latina-online.jpg" alt="">
+                    <h5>Radio latina</h5>
+                </div>
+                <div class="card">
+                    <img class="img-card" src="img/super-clasicos-del-rock.jpg" alt="">
+                    <h5>Clasicos del Rock</h5>
+                </div>
+            </article>
+            <article class="item-panel item-panel-right">
+                <div onclick="obtenerEmisorasPorGenero('REGUETON')" class="generos center">
+                    REGUETON
+                </div>
+                <div onclick="obtenerEmisorasPorGenero('ROCK')" class="generos center">
+                    ROCK
+                </div>
+                <div onclick="obtenerEmisorasPorGenero('SALSA')" class="generos center">
+                    SALSA
+                </div>
+                <div onclick="obtenerEmisorasPorGenero('VALLENATO')" class="generos center">
+                    VALLENATO
+                </div>
+                <div onclick="obtenerEmisorasPorGenero('CRISTIANA')" class="generos center">
+                    CRISTIANA
+                </div>
+                <div onclick="obtenerEmisorasPorGenero('VARIADO')" class="generos center">
+                    VARIADO
+                </div>
+                <div onclick="obtenerEmisorasPorGenero('LATINO')" class="generos center">
+                    LATINO
+                </div>
+                <div onclick="obtenerEmisorasPorGenero('AFRO')" class="generos center">
+                    AFRO
+                </div>
+                <div onclick="obtenerEmisorasPorGenero('AÑOS 80')" class="generos center">
+                    AÑOS 80
+                </div>
+            </article>
+        </div>
+        
+        <footer class="footer center">
+            <h5>Copyright © 2026 Diseño Web II - Santa Marta (Colombia)</h5>
+        </footer>
+        
+    </header>
+
+    <script src="methods.js"></script>
+</body>
+</html>
